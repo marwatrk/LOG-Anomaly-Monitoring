@@ -16,7 +16,7 @@ Détection basée sur des règles métier simples et transparentes, dans la mêm
 Une IP est considérée comme suspecte dès qu'elle déclenche au moins une de ces 3 règles.
 
 ## Résultats
-Sur un jeu de logs simulant du trafic web normal et deux scénarios d'attaque injectés (brute-force sur /login, scan de pages sensibles), les deux IPs malveillantes ont été correctement identifiées par les règles (voir `rapport.txt` et les graphiques `trafic_temps.png` / `scatter_ips.png`).
+Sur un jeu de logs simulant du trafic web normal et deux scénarios d'attaque injectés (brute-force sur /login, scan de pages sensibles), les deux IPs malveillantes ont été correctement identifiées par les règles (voir `rapport.txt` et les graphiques `traffic_over_time.png` / `ip_scatter_plot.png`).
 
 ## Limites
 - Les logs utilisés sont générés synthétiquement, par souci de contrôle expérimental (on sait exactement quelles anomalies chercher).
