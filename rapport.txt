@@ -1,0 +1,12 @@
+
+RAPPORT D'ANALYSE DE LOGS — 21/09/2026
+
+Nombre total de requêtes analysées : 2210
+Nombre d'IPs uniques : 21
+
+IPs suspectées de brute-force (règle : échecs répétés) : ['45.33.32.156']
+IPs scannant des pages sensibles (règle : pages sensibles) : ['185.220.101.5']
+IPs avec un pic de volume anormal (règle : volume/minute) : ['45.33.32.156']
+
+Conclusion : 2 IP(s) au total identifiée(s) comme
+potentiellement malveillante(s) par au moins une des 3 règles.
